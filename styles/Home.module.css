@@ -84,6 +84,11 @@
   height: 1em;
 }
 
+.fakestore {
+  margin: 0;
+  font-size: 1.75rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
