@@ -1,5 +1,6 @@
-import styles from '../styles/Home.module.css';
-import SearchBar from '../components/SearchBar.js';
+import head from "next/head";
+import styles from '../styles/Store.module.css';
+import SearchBar from '../components/SearchBar';
 
 
 
@@ -9,7 +10,7 @@ export default function Store() {
         <div className = {styles.fakestore}>
             <h1>Fake Store</h1>
             <p>Welcome to the Fake Store!</p>
-            <p>Here you'll find a variety of products from the fake store.</p>
+            <p>Here you'll find a variety of products from the fakestore API.</p>
             <SearchBar/>
         </div>
 

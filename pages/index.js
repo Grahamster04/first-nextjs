@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Counter from '../components/Counter';
 import GitHub from '../components/GitHub';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -13,11 +14,14 @@ export default function Home() {
 
       <h1 className={styles.title}>
           Graham Boris welcomes <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      </h1>
       <Counter name={"Pablo"} mult={1} size={2}/>
       <Counter name={"Pia"} mult={2} size={0.5}/>
 
       <GitHub />
+      <Link href ="/store">
+        Go to my beautiful Store!
+      </Link>
     </div>
   );
 }
